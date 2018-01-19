@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\output\core_cm3.o"
+".\output\system_stm32f10x.o"
+".\output\startup_stm32f10x_hd.o"
+".\output\misc.o"
+".\output\main.o"
+".\output\stm32f10x_fsmc.o"
+".\output\stm32f10x_gpio.o"
+".\output\stm32f10x_tim.o"
+".\output\stm32f10x_rcc.o"
+".\output\ili9325.o"
+--library_type=microlib --strict --scatter ".\Output\Tiky_uCGUI_DEMO.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\Tiky_uCGUI_DEMO.map" -o .\Output\Tiky_uCGUI_DEMO.axf

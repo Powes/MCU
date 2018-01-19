@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I .\user -I .\CMSIS -I .\FWlib\inc -I .\TFT_ILI9328
+-IC:\Users\SUN\Desktop\WORK\Development\MCU\MCU\DISP\4.0ÆÁ_Çý¶¯Ô´Âë\RTE
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\output\system_stm32f10x.o --omf_browse .\output\system_stm32f10x.crf --depend .\output\system_stm32f10x.d "CMSIS\system_stm32f10x.c"
